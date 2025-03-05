@@ -5,10 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>posicionamento</title>
     <style>
-      
+        #container{
+            position: relative;
+            background-repeat: no-repeat;
+            height: 97vh;
+            border: 1px solid black;
+            background-color: red;
+            background-image: url('imagens/target001.png');
+            background-size: 100% 100%;
+           
+        }
+        #conteudo{
+            position: absolute;
+            background-color: yellow;
+            width: 250px;
+            height: 250px;
+            left: 50%;
+            top: 50%;
+            background-image: url('imagens/target001.png');
+            background-size: 100% 100%;
+
+            transform: translate(-50%, -50%);
+        }
+        
     </style>
 </head>
 <body>
-    
+<section id="container">
+    <article id="conteudo">
+
+        
+    </article>
+</section>
 </body>
 </html>
