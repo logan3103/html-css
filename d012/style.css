@@ -68,12 +68,18 @@ section.normal{
 section.imagem{
     background-color: rgb(212, 169, 169);
     color: white;
+    box-shadow: inset 5px 5px 10px black;
+    background-attachment: fixed;
 }
 
 section.imagem > p{
     background-color: rgba(0, 0, 0, 0.582);
     display: inline-block;
     padding: 20px;
+    
+}
+section >p{
+    padding-bottom: 2em;
 }
 
 footer{
@@ -81,4 +87,18 @@ footer{
     background-color: black;
     padding: 10px;
     text-align: center;
+}
+section#img01{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image:url(fox-1284512_1280.jpg);
+    background-size: cover;
+}
+
+section#img02{
+    
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-image: url(rato.webp);
+    background-size: cover;
 }
